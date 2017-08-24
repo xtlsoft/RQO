@@ -7,5 +7,5 @@ php:
   - hhvm # on Trusty only
   - nightly
 
-before_script: composer install
-script: php main.php
+before_script: composer install && php main.php&
+script: curl http://localhost:8000/
