@@ -8,4 +8,5 @@ php:
 before_script: 
   - composer install
   - nohup php main.php &
+  - sleep 2
 script: curl http://localhost:8000/
