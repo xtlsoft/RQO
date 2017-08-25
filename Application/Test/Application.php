@@ -11,7 +11,7 @@
         $resp = new \Rqo\Http\Response(200);
         
         $header = new \Rqo\Http\Header([
-                "content-type" => "html"
+                "content-type" => "text/html"
             ]);
         
         $resp->header($header);
