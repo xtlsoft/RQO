@@ -33,6 +33,8 @@
     
     // Define The Application Directory
     $AppDir = __DIR__ . '/Application/';
+
+    @include_once($AppDir.'Configure.php');
     
     // Include All The Files Under Application Directory
     foreach(\XDO\Tool::listDir($AppDir, 0) as $v){
