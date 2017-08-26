@@ -19,7 +19,7 @@
     
     namespace Rqo;
     
-    defined("RQO_VERSION") or define("RQO_VERSION", "v0.1.0-alpha");
+    defined("RQO_VERSION") or define("RQO_VERSION", "v0.1.1-stable");
     
     class Autoload {
         
