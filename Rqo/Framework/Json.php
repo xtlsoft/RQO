@@ -30,6 +30,14 @@
         public $array = [];
 
         /**
+         * JsonP Function name
+         * 
+         * @var mixed
+         * 
+         */
+        protected $jsonP = null;
+
+        /**
          * Constructor
          *
          * @param mixed $json
@@ -56,6 +64,22 @@
             }
 
             $this->array = array_merge($this->array, $json);
+
+            return $this;
+
+        }
+
+        /**
+         * jsonP
+         * 
+         * @param string $name
+         * 
+         * @return self
+         * 
+         */
+        public function jsonP($name){
+
+            $this->jsonP = $name;
 
             return $this;
 
@@ -101,8 +125,10 @@
          * 
          */
         public function __toString(){
-
-            return $this->json;
+            if($this->jsonP === null || $this->jsonP === false)
+                return $this->json;
+            else
+                return ($this->jsonP . '(' . $this->json . ");");
 
         }
 

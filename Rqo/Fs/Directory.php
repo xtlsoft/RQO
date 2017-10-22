@@ -5,7 +5,7 @@
      * +-------------LICENSE-WARNING-------------+
      * | This Program is Licensed under MIT, We  |
      * | included a copy of it. The file name is |
-     * | "LICENSE", if you did not recieve that, |
+     * | "LICENSE", if you did not receive that, |
      * | you could look up on the World-Wide-Web.|
      * +-----------------------------------------+
      * 

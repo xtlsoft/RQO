@@ -69,7 +69,8 @@ RES;
             "version" => RQO_VERSION
         ]))->import([
             "author" => "xtl <xtlsoft.top>"
-        ])->import('{"GitHub":"https://github.com/xtlsoft/"}');
+        ])->import('{"GitHub":"https://github.com/xtlsoft/"}')
+          ->jsonP($req->query['jsonp']);
 
         $json->GitHub = "https://github.com/xtlsoft/RQO";
 
