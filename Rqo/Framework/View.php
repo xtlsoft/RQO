@@ -39,7 +39,7 @@
          */
         public function __construct($viewName, $basedir = null){
 
-            $this->content = (new \Rqo\Fs\Directory(_RQO_FRAMEWORK_VIEW_BASEDIR_ ?? $basedir)) -> getContent($viewName . ".html");
+            $this->content = (new \Rqo\Fs\Directory($basedir ?? _RQO_FRAMEWORK_VIEW_BASEDIR_ )) -> getContent($viewName . ".html");
             
         }
         
