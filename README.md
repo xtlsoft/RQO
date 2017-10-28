@@ -2,7 +2,7 @@
 [![License](https://poser.pugx.org/xtlsoft/rqo/license)](https://packagist.org/packages/xtlsoft/rqo)
 [![Latest Stable Version](https://poser.pugx.org/xtlsoft/rqo/v/stable)](https://packagist.org/packages/xtlsoft/rqo)
 [![Build Status](https://travis-ci.org/xtlsoft/RQO.svg?branch=master)](https://travis-ci.org/xtlsoft/RQO)
-[![Require PHP Version](https://img.shields.io/badge/php-7.0+-blue.svg)](https://php.net/)
+[![Require PHP Version](https://img.shields.io/badge/php-5.6+-blue.svg)](https://php.net/)
 
 RQO, The Responsive, Quick, Objective Server Platform.
 
