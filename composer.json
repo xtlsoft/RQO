@@ -3,7 +3,7 @@
     "description": "RQO, The Responsive Quick Objective Server Platform.",
     "type": "project",
     "require": {
-        "php": ">=7.0",
+        "php": ">=5.6",
         "react/event-loop": "^0.4.3",
         "react/http": "^0.7.4",
         "xtlsoft/xdo": "^0.1.3"
